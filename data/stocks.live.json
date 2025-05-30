@@ -1,0 +1,22 @@
+{
+  "MSFT": {
+    "price": 466.82,
+    "change": 4.93
+  },
+  "TSLA": {
+    "price": 999.27,
+    "change": -0.07
+  },
+  "AMZN": {
+    "price": 788.73,
+    "change": -2.42
+  },
+  "AAPL": {
+    "price": 691.51,
+    "change": 3.02
+  },
+  "GOOG": {
+    "price": 169.68,
+    "change": -4.99
+  }
+}
