@@ -24,3 +24,6 @@ node_modules
 # env files
 .env
 
+# Live stock data files
+./data/live-stock-data.json
+
