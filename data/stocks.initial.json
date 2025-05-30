@@ -1,7 +1,72 @@
 {
-  "AAPL": { "price": 150.25, "change": 1.24 },
-  "GOOG": { "price": 2750.50, "change": -2.10 },
-  "TSLA": { "price": 790.30, "change": 3.45 },
-  "MSFT": { "price": 300.10, "change": -0.75 },
-  "AMZN": { "price": 3450.00, "change": 5.12 }
+    "AAPL": [
+        {
+            "price": 150.25,
+            "change": 1.2
+        },
+        {
+            "price": 151.10,
+            "change": 0.9
+        },
+        {
+            "price": 152.00,
+            "change": 0.6
+        }
+    ],
+    "GOOG": [
+        {
+            "price": 2750.00,
+            "change": -1.2
+        },
+        {
+            "price": 2751.00,
+            "change": -1.1
+        },
+        {
+            "price": 2752.50,
+            "change": -1.0
+        }
+    ],
+    "TSLA": [
+        {
+            "price": 150.25,
+            "change": 1.2
+        },
+        {
+            "price": 151.10,
+            "change": 0.9
+        },
+        {
+            "price": 152.00,
+            "change": 0.6
+        }
+    ],
+    "MSFT": [
+        {
+            "price": 2750.00,
+            "change": -1.2
+        },
+        {
+            "price": 2751.00,
+            "change": -1.1
+        },
+        {
+            "price": 2752.50,
+            "change": -1.0
+        }
+    ],
+    "AMZN": [
+        {
+            "price": 2750.00,
+            "change": -1.2
+        },
+        {
+            "price": 2751.00,
+            "change": -1.1
+        },
+        {
+            "price": 2752.50,
+            "change": -1.0
+        }
+    ]
 }
