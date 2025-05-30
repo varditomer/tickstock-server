@@ -15,7 +15,7 @@ io.on('connection', (socket) => {
   console.log('Client connected:', socket.id);
 });
 
-const PORT = 300;
+const PORT = 4000;
 server.listen(PORT, () => {
   console.log(`Server listening on http://localhost:${PORT}`);
 });
