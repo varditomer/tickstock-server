@@ -9,11 +9,17 @@ dotenv.config();
 
 const app = express();
 const http = createServer(app);
+
+// Dynamic CORS config for socket.io
+const isProduction = process.env.NODE_ENV === 'production';
+
 const io = new Server(http, {
-  cors: {
-    origin: ['http://localhost:5173', 'http://127.0.0.1:5173'],
-    credentials: true,
-  },
+  cors: isProduction
+    ? undefined // Allow same-origin by default
+    : {
+        origin: ['http://localhost:5173', 'http://127.0.0.1:5173'],
+        credentials: true,
+      },
 });
 
 // Middleware
