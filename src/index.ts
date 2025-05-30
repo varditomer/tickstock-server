@@ -26,7 +26,7 @@ const io = new Server(http, {
 app.use(express.json());
 
 // Serve frontend
-if (process.env.NODE_ENV === 'production') {
+if (isProduction) {
   // When deploying, serve built frontend from here
   app.use(express.static(path.resolve(__dirname, '../client/dist')));
 } else {
