@@ -1,136 +1,212 @@
 {
   "MSFT": [
     {
-      "price": 1066.94,
-      "change": -2.45
+      "price": 821.91,
+      "change": -2.51
     },
     {
-      "price": 715.68,
-      "change": -0.14
+      "price": 913.9,
+      "change": 0.53
     },
     {
-      "price": 1018.58,
-      "change": 4.94
+      "price": 691.59,
+      "change": -0.8
+    },
+    {
+      "price": 662.38,
+      "change": -0.41
+    },
+    {
+      "price": 920.32,
+      "change": 2.03
+    },
+    {
+      "price": 858.82,
+      "change": -1.2
+    },
+    {
+      "price": 894.19,
+      "change": -4.42
+    },
+    {
+      "price": 412.74,
+      "change": 0.29
+    },
+    {
+      "price": 853.86,
+      "change": -0.55
+    },
+    {
+      "price": 252.58,
+      "change": -4.99
     }
   ],
   "TSLA": [
     {
-      "price": 479.3,
-      "change": -4.02
+      "price": 343.01,
+      "change": 1.25
     },
     {
-      "price": 434.85,
-      "change": -1.34
+      "price": 950.59,
+      "change": 4.87
     },
     {
-      "price": 978.75,
-      "change": 4.33
+      "price": 353.36,
+      "change": -2.73
     },
     {
-      "price": 745.38,
-      "change": -0.67
+      "price": 434.17,
+      "change": -1.76
     },
     {
-      "price": 543.25,
-      "change": -3.1
+      "price": 194.22,
+      "change": -3.53
+    },
+    {
+      "price": 1045.6,
+      "change": 0.63
+    },
+    {
+      "price": 272.32,
+      "change": 4.37
+    },
+    {
+      "price": 271.3,
+      "change": -2.43
+    },
+    {
+      "price": 925.68,
+      "change": -1.94
+    },
+    {
+      "price": 972.77,
+      "change": -4.34
     }
   ],
   "AMZN": [
     {
-      "price": 1088.58,
-      "change": 4.77
+      "price": 768.58,
+      "change": -4.29
     },
     {
-      "price": 657.88,
-      "change": -4.21
+      "price": 411.52,
+      "change": -3.66
     },
     {
-      "price": 127.94,
-      "change": -1.03
+      "price": 872.41,
+      "change": -1.01
     },
     {
-      "price": 908.52,
-      "change": -0.06
+      "price": 407.83,
+      "change": 2.72
     },
     {
-      "price": 913.25,
-      "change": -0.35
+      "price": 523.1,
+      "change": 0.56
     },
     {
-      "price": 1099.58,
-      "change": -1.79
+      "price": 1059.07,
+      "change": 0.28
     },
     {
-      "price": 159.52,
-      "change": -1.53
+      "price": 441.19,
+      "change": -4.95
     },
     {
-      "price": 748.44,
-      "change": 4.02
+      "price": 158.96,
+      "change": -2.64
     },
     {
-      "price": 889.94,
-      "change": 0.24
+      "price": 851.79,
+      "change": 4.38
+    },
+    {
+      "price": 623.8,
+      "change": 2.57
     }
   ],
   "AAPL": [
     {
-      "price": 313.03,
-      "change": -0.74
+      "price": 469.99,
+      "change": 3.85
     },
     {
-      "price": 628.18,
-      "change": 3.29
+      "price": 857.08,
+      "change": -3.41
     },
     {
-      "price": 193.33,
-      "change": 1.26
+      "price": 299.05,
+      "change": -0.73
     },
     {
-      "price": 669.1,
-      "change": 2.86
+      "price": 484.91,
+      "change": 2.25
     },
     {
-      "price": 132.47,
-      "change": -2.96
+      "price": 800.08,
+      "change": -4.74
     },
     {
-      "price": 1096.77,
-      "change": -0.08
+      "price": 594.51,
+      "change": -4.79
     },
     {
-      "price": 212.25,
-      "change": -4.68
+      "price": 956.23,
+      "change": 4.98
     },
     {
-      "price": 784.2,
-      "change": 2.22
+      "price": 697.02,
+      "change": -3.33
     },
     {
-      "price": 555.84,
-      "change": 3.79
+      "price": 283.13,
+      "change": -4.56
+    },
+    {
+      "price": 786.97,
+      "change": -2.66
     }
   ],
   "GOOG": [
     {
-      "price": 737.25,
-      "change": 1.34
+      "price": 532.98,
+      "change": -0.15
     },
     {
-      "price": 1022.91,
-      "change": 1.13
+      "price": 888.64,
+      "change": 3.72
     },
     {
-      "price": 386.93,
-      "change": 4.43
+      "price": 1094.2,
+      "change": -0.89
     },
     {
-      "price": 823.48,
-      "change": -3.59
+      "price": 482.19,
+      "change": -0.54
     },
     {
-      "price": 726.4,
-      "change": -1.98
+      "price": 963.73,
+      "change": -3.79
+    },
+    {
+      "price": 1022.82,
+      "change": -0.96
+    },
+    {
+      "price": 679.5,
+      "change": 3.69
+    },
+    {
+      "price": 745.09,
+      "change": -3.85
+    },
+    {
+      "price": 759.93,
+      "change": 2.58
+    },
+    {
+      "price": 387.67,
+      "change": -3.72
     }
   ]
 }

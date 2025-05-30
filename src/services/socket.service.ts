@@ -7,11 +7,13 @@ export function setupSocketAPI(io: Server) {
   io.on("connection", (socket) => {
     console.log("Client connected:", socket.id);
 
-    // Send initial data
-    const latest = stocksService.getLatestLiveStocks();
-    Object.entries(latest).forEach(([symbol, { price, change }]) => {
-      socket.emit("stock-update", { symbol, price, change });
+    // Send initial historical data for each symbol
+    const historyMap: Record<string, { price: number; change: number }[]> = {};
+    symbols.forEach((symbol) => {
+      const history = stocksService.getHistory(symbol);
+      if (history.length) historyMap[symbol] = history;
     });
+    socket.emit("initial-data", historyMap);
 
     const interval = setInterval(() => {
       const symbol = symbols[Math.floor(Math.random() * symbols.length)];
@@ -19,7 +21,6 @@ export function setupSocketAPI(io: Server) {
       const change = +(Math.random() * 10 - 5).toFixed(2);
 
       stocksService.updateLiveStock(symbol, price, change);
-
       socket.emit("stock-update", { symbol, price, change });
     }, Math.random() * 5000 + 5000);
 
